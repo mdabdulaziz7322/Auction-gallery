@@ -1,0 +1,68 @@
+
+     [
+      {
+        "id": 1,
+        "title": "Vintage Rolex Watch",
+        "description": "A classic vintage Rolex Submariner from the 1970s in excellent condition.",
+        "currentBidPrice": 5600.00,
+        "timeLeft": "3d 4h left",
+        "bidsCount": 12,
+        "image": "https://i.ibb.co/KjWy8xsZ/Bid4-min.png"
+      },
+      {
+        "id": 2,
+        "title": "Apple MacBook Pro 16\" 2023",
+        "description": "Brand new MacBook Pro with M3 chip, 16GB RAM, and 1TB SSD.",
+        "currentBidPrice": 2250.50,
+        "timeLeft": "1d 22h left",
+        "bidsCount": 8,
+        "image": "https://i.ibb.co/N6993h10/Bid3-min.png"
+      },
+      {
+        "id": 3,
+        "title": "Bouquet of vintage eucalyptus flowers",
+        "description": "Bouquet of vintage eucalyptus flowers by Eucalyptus Bouquet with certificate of authenticity.",
+        "currentBidPrice": 4500.75,
+        "timeLeft": "5d 6h left",
+        "bidsCount": 25,
+        "image": "https://i.ibb.co/5hm2NHH4/Bid7-min.png"
+      },
+      {
+        "id": 4,
+        "title": "Canon EOS R5 Camera",
+        "description": "Mirrorless full-frame camera body in like-new condition with original packaging.",
+        "currentBidPrice": 3200.00,
+        "timeLeft": "2d 3h left",
+        "bidsCount": 14,
+        "image": "https://i.ibb.co/sd1Btm24/Bid1-min.png"
+      },
+      {
+        "id": 5,
+        "title": "Electric Guitar - Fender Stratocaster",
+        "description": "American-made Fender Stratocaster in sunburst finish with maple neck.",
+        "currentBidPrice": 1400.99,
+        "timeLeft": "6d 12h left",
+        "bidsCount": 9,
+        "image": "https://i.ibb.co/bjy9vsbY/Bid2-min.png"
+      },
+      {
+        "id": 6,
+        "title": "Lebenskompass Bullet Journal Slim A5",
+        "description": "Lebenskompass Bullet Journal Slim A5 in pristine condition, limited edition design.",
+        "currentBidPrice": 2700.00,
+        "timeLeft": "4d 19h left",
+        "bidsCount": 17,
+        "image": "https://i.ibb.co/b5rd2WCQ/Bid6-min.png"
+      },
+      {
+        "id": 7,
+        "title": "Upcycling an Antique Highchair",
+        "description": "80 Grit Sandpaper, Behr Paint in Coney Island and smooth finish.",
+        "currentBidPrice": 750.25,
+        "timeLeft": "1d 15h left",
+        "bidsCount": 21,
+        "image": "https://i.ibb.co/NnTVsZKs/Bid5-min.png"
+      }
+    ]
+ 
+  
