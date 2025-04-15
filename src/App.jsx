@@ -8,6 +8,7 @@ import { MdFavoriteBorder } from "react-icons/md";
 
 import { ToastContainer, toast } from 'react-toastify';
 import Favorite from './components/Favorite/Favorite';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [favorite, setFavorite] = useState([]);
@@ -45,13 +46,13 @@ setFavorite(remainingFavorite)
       <Hero ></Hero>
 
 
-      <div className="body container w-11/12 mx-auto flex  gap-5 mt-10">
+      <div className="body container w-11/12 mx-auto flex  gap-5 mt-10 ">
         <div className="auction section w-[70%]">
           <h3 className='text-2xl mb-3'>Active Auctions</h3>
           <p>Discover and bid on extraordinary items </p>
           <Bids handleFavorite={handleFavorite} notify={notify} handleTotalBids={handleTotalBids} favorite={favorite}></Bids>
         </div>
-        <div className="favorite-section w-[30%] bg-white mt-27 rounded-2xl shadow-lg p-8   ">
+        <div className="favorite-section w-[30%] bg-white mt-27 rounded-2xl shadow-sm p-8 h-full ">
           <div className='flex items-center justify-center gap-3 border-b-1 border-gray-200 pb-5'>
             <MdFavoriteBorder size={25} />
             <h3 className='text-2xl py-4'>Favorite Items</h3>
@@ -68,7 +69,10 @@ setFavorite(remainingFavorite)
 
         <ToastContainer />
       </div>
-
+      
+      <Footer> </Footer>
+     
+      
 
     </>
   )

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Bid from '../Bid/Bid';
 import { MdFavoriteBorder } from "react-icons/md";
 import './Bids.css';
 
@@ -25,9 +24,9 @@ const Bids = ({ handleFavorite, notify, handleTotalBids, favorite }) => {
 
     return (
         <div>
-            <div className='bids'>
+            <div className='bids bg-white rounded-2xl shadow-sm mt-10'>
                 <div className="overflow-x-auto">
-                    <table className="table bg-white rounded-2xl shadow-lg mt-10">
+                    <table className="table ">
                         <thead>
                             <tr>
 
@@ -88,9 +87,6 @@ const Bids = ({ handleFavorite, notify, handleTotalBids, favorite }) => {
                         </tbody>
                     </table>
                 </div>
-                {
-                    bids.map((bid) => <Bid bid={bid}></Bid>)
-                }
             </div>
         </div>
     );
